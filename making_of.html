@@ -1,0 +1,80 @@
+ <!DOCTYPE html>
+  <html>
+    <head>
+      <!--Import Google Icon Font-->
+      <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="css/materialize.css"  media="screen,projection"/>
+      <link rel="stylesheet" type="text/css" href="css/thomas.css">
+      <!-- Fonts icons -->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    </head>
+
+    <body>
+
+      <div class="row sliderPr" style="margin-top:0%;">
+       <div class="col s12 l10 m10 offset-m1">
+        <div class="card">
+
+            <div class="videoBtn">
+              <iframe id="video1" src="https://www.youtube.com/embed/66XaMWlbA1Q" frameborder="0" allowfullscreen></iframe>              
+            </div>
+
+           <div id="video"></div>
+ 
+          <div class="card-action" style="background:rgb(63,179,197);">
+
+              <a href="home.html"><img class="control1" src="img/controls/Iconohome.svg"></a>
+
+              <img class="control2 dropdown-button" style="cursor:pointer; cursor: hand;" href='#' data-activates='dropdown1' src="img/controls/Iconosandwich.svg">
+
+            <!-- Dropdown Structure -->
+              <ul id='dropdown1' class='dropdown-content'>
+                <li><a style="margin-bottom: 5px;" href="clothes.html">Clothes</a></li>
+                <li><a style="margin-bottom: 5px;" href="recipe.html">Recipes</a></li>
+                <li><a href="shoes.html">Shoes</a></li>
+              </ul>
+              
+
+              <img class="control3 dropdown-button" style="cursor:pointer; cursor: hand;" href='#' data-activates='dropdown2' src="img/controls/Iconoredes.svg">
+
+              <!-- Dropdown Structure -->
+              <ul id='dropdown2' class='dropdown-content'>
+                <li><a style="margin-bottom: 5px;" target="-_blank" href="https://www.facebook.com/sharer/sharer.php?u=http://grafosdesign.com/catalogue/demo/home.html"><i class="fa fa-facebook fa-lg"></i> </a></li>
+                <li><a style="margin-bottom: 5px;" target="-_blank" href="https://twitter.com/?status=I like http://grafosdesign.com/catalogue/demo/home.html"><i class="fa fa-twitter fa-lg"></i></a></li>
+                <li><a target="-_blank" data-pin-media="high-res-blog-post-image.jpg" href="http://pinterest.com/pin/create/button/?media=http://grafosdesign.com/catalogue/demo/img/Portada.jpg"><i class="fa fa-pinterest fa-lg"></i></a></li>
+              </ul> 
+
+              <img class="control4 dropdown-button" style="cursor:pointer; cursor: hand;" href='#' data-activates='dropdown3' src="img/controls/Iconoinfo.svg">
+
+              <!-- Dropdown Structure -->
+              <ul id='dropdown3' class='dropdown-content'>
+                <li><a style="margin-bottom: 5px;" target="-_blank" href="http://grafosdesign.com/">e-catalogue <br>by Grafos</a></li>
+                <li><a href="mailto:hello@grafosdesign.com">Contact Us</a></li>
+              </ul> 
+
+              <a href="clothes_detail.html"><img class="control6" src="img/controls/Flechaizquierda.svg"></a>
+              <a href=""><img class="control7" src="img/controls/Logografos.svg"></a>
+              <a href="recipe.html"><img  src="img/controls/Flechaderecha.svg"></a>
+
+              <div id="shopingCart"></div>
+
+            </div>
+        </div>
+      </div>
+      </div>
+
+      <!--Import jQuery before materialize.js-->
+      <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+      <script type="text/javascript" src="js/materialize.min.js"></script>
+      <script type="text/javascript">
+        $(document).ready(function(){
+          // the "href" attribute of .modal-trigger must specify the modal ID that wants to be triggered
+          $('.modal-trigger').leanModal();
+        });       
+      </script>
+    </body>
+  </html>
+        
