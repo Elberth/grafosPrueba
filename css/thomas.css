@@ -1,0 +1,598 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+body{
+	background-image: url(../img/Fondo.jpg);
+}
+
+
+/* Portada  */
+#Portada{
+	background: url(../img/Portada.jpg) no-repeat; 
+  -webkit-background-size: 100% 100%, cover; 
+	-moz-background-size: 100% 100%, cover;
+	o-background-size: 100% 100%, cover;
+	background-size: 100% 100%, cover;
+  	height: 750px;
+  	margin-top: 30px;
+
+}
+
+
+/* Clothes  */
+#Clothes1{
+  background-image: url("../img/clothes/Clothes1.jpg");
+  -webkit-background-size: 100% 100%, cover; 
+	-moz-background-size: 100% 100%, cover;
+	o-background-size: 100% 100%, cover;
+	background-size: 100% 100%, cover;
+  	height: 750px;
+  	margin-top: 30px;
+}
+
+#modalImg{
+	background-image: url("../img/Pop-up1.jpg");
+	background-repeat: no-repeat;
+	height: 370px;
+}
+
+#modalImg2{
+	background-image: url("../img/Pop-up2.jpg");
+	background-repeat: no-repeat;
+	height: 370px;
+}
+
+/* Clothes Detalle  */
+#Clothes_detail{
+  background-image: url("../img/clothes/clothes.jpg");
+  -webkit-background-size: 100% 100%, cover; 
+	-moz-background-size: 100% 100%, cover;
+	o-background-size: 100% 100%, cover;
+	background-size: 100% 100%, cover;
+  	height: 750px;
+  	margin-top: 30px;
+}
+
+
+/* Recipe  */
+#recipe{
+  background-image: url("../img/receta/Receta.jpg");
+  -webkit-background-size: 100% 100%, cover; 
+	-moz-background-size: 100% 100%, cover;
+	o-background-size: 100% 100%, cover;
+	background-size: 100% 100%, cover;
+  	height: 750px;
+  	margin-top: 30px;
+}
+
+/* Video  */
+#video{
+  background-image: url("../img/video/Video.jpg");
+  -webkit-background-size: 100% 100%, cover; 
+	-moz-background-size: 100% 100%, cover;
+	o-background-size: 100% 100%, cover;
+	background-size: 100% 100%, cover;
+  	height: 750px;
+  	margin-top: 30px;
+}
+#video1{
+	width: 750px;
+	height: 422px;
+}
+.videoBtn{
+	z-index: 1;
+	margin-top: 15%;
+	margin-left: 42%;
+	position: absolute;
+}
+
+/* Shoes */
+#shoes{
+  background-image: url("../img/shoes/Zapatos.jpg");
+  -webkit-background-size: 100% 100%, cover; 
+	-moz-background-size: 100% 100%, cover;
+	o-background-size: 100% 100%, cover;
+	background-size: 100% 100%, cover;
+  	height: 750px;
+  	margin-top: 30px;
+}
+
+#shopingCart{
+	background-image: url("../img/controls/shoping.svg");
+	background-repeat: no-repeat;
+	height: 45px;
+	margin-left: 83%;
+	margin-top: -40px;
+}
+
+.redTwitter{
+	position: absolute;
+	z-index: 2; 
+	margin-top: 15%;
+}
+.redFacebook{
+	position: absolute;
+	z-index: 2;  
+	margin-top: 20%;
+}
+.redPinterest{
+	position: absolute;
+	z-index: 2;  
+	margin-top: 25%;
+}
+
+.sliderPr{margin-left: 13%;}
+
+.control1{
+	margin-left: 10px;
+}
+.control2{
+	margin-left: 0px;
+}
+.control3{
+	margin-left: 20px;
+}
+.control4{
+	margin-left: 20px;
+}
+.control5{
+	margin-left: 32%;
+}
+.control6{
+	margin-left: 28%;
+}
+.control7{
+	margin-left: 10px;
+}
+.control8{
+	float: right;
+	margin-right: 20px;
+	margin-top: 5px;
+}
+
+.vestidoBtn{
+	z-index: 1;
+	margin-top: 35%;
+	margin-left: 50%;
+	position: absolute;
+}
+.vestidoBtn2{
+	z-index: 1;
+	margin-top: 35%;
+	margin-left: 25%;
+	position: absolute;
+}
+.vestidoImg{
+	z-index: 0;
+	margin-top: -100px;
+}
+
+
+@media screen and (max-width: 1800px)  {
+
+#Portada{
+	background: url(../img/Portada.jpg) no-repeat; 
+  -webkit-background-size: 100% 100%, cover; 
+	-moz-background-size: 100% 100%, cover;
+	o-background-size: 100% 100%, cover;
+	background-size: 100% 100%, cover;
+  	height: 600px;
+  	margin-top: 60px;
+}
+
+/* Clothes  */
+#Clothes1{
+  background-image: url("../img/clothes/Clothes1.jpg");
+  -webkit-background-size: 100% 100%, cover; 
+	-moz-background-size: 100% 100%, cover;
+	o-background-size: 100% 100%, cover;
+	background-size: 100% 100%, cover;
+  	height: 600px;
+  	margin-top: 60px;
+}
+
+/* Clothes Detalle  */
+#Clothes_detail{
+  background-image: url("../img/clothes/clothes.jpg");
+  -webkit-background-size: 100% 100%, cover; 
+	-moz-background-size: 100% 100%, cover;
+	o-background-size: 100% 100%, cover;
+	background-size: 100% 100%, cover;
+  	height: 600px;
+  	margin-top: 60px;
+}
+
+/* Recipe  */
+#recipe{
+  background-image: url("../img/receta/Receta.jpg");
+  -webkit-background-size: 100% 100%, cover; 
+	-moz-background-size: 100% 100%, cover;
+	o-background-size: 100% 100%, cover;
+	background-size: 100% 100%, cover;
+	height: 600px;
+  	margin-top: 60px;
+}
+
+/* Video  */
+#video{
+  background-image: url("../img/video/Video.jpg");
+  -webkit-background-size: 100% 100%, cover; 
+	-moz-background-size: 100% 100%, cover;
+	o-background-size: 100% 100%, cover;
+	background-size: 100% 100%, cover;
+	height: 600px;
+  	margin-top: 60px;
+}
+
+/* Shoes */
+#shoes{
+  background-image: url("../img/shoes/Zapatos.jpg");
+  -webkit-background-size: 100% 100%, cover; 
+	-moz-background-size: 100% 100%, cover;
+	o-background-size: 100% 100%, cover;
+	background-size: 100% 100%, cover;
+	height: 600px;
+  	margin-top: 60px;
+}
+
+
+#shopingCart{
+	margin-left: 80%;
+}
+.control5{
+	margin-left: 27%;
+}
+.control6{
+	margin-left: 22%;
+}
+.vestidoBtn{ margin-top: 35%}
+.vestidoBtn2{ margin-top: 35%}
+
+#video1{
+	width: 490px;
+	height: 362px;
+}
+.videoBtn{
+	margin-top: 20%;
+	margin-left: 40%;
+}
+
+
+}
+
+@media screen and (max-width: 1500px)  {
+
+.control5{
+	margin-left: 25%;
+}
+.control6{
+	margin-left: 19%;
+}
+
+
+}
+
+@media screen and (max-width: 1400px)  {
+.control8{
+	margin-right: 0px; 
+}
+#shopingCart{
+	margin-left: 72%;
+}
+.control5{
+	margin-left: 20%;
+}
+.control6{
+	margin-left: 14%;
+}
+#video1{
+	width: 420px;
+	height: 322px;
+}
+.vestidoBtn{ margin-top: 40%}
+.vestidoBtn2{ margin-top: 40%}
+
+#modalImg{
+	background-image: url("../img/tablet/Popup1.jpg");
+	background-repeat: no-repeat;
+}
+
+#modalImg2{
+	background-image: url("../img/tablet/popup2.jpg");
+	background-repeat: no-repeat;
+}
+
+.redTwitter{
+	margin-top: 150px;
+}
+.redFacebook{
+	margin-top: 210px;
+}
+.redPinterest{
+	margin-top: 270px;
+}
+
+}
+@media screen and (max-width: 1200px)  {
+.control5{
+	margin-left: 15%;
+}
+.control6{
+	margin-left: 7%;
+}
+.vestidoBtn{ margin-top: 60%; margin-left:44%;}
+.vestidoBtn2{ margin-top: 60%; margin-left:15%;}
+/* Clothes  */
+#Clothes1{
+  background-image: url("../img/tablet/unnamed.jpg");
+  -webkit-background-size: 100% 100%, cover; 
+	-moz-background-size: 100% 100%, cover;
+	o-background-size: 100% 100%, cover;
+	background-size: 100% 100%, cover;
+  	height: 600px;
+  	margin-top: 60px;
+}
+
+}
+
+
+@media screen and (max-width: 1000px)  {
+
+#Portada{
+	background: url(../img/tablet/Portada.jpg) no-repeat; 
+	 -webkit-background-size: 100% 100%, cover; 
+	-moz-background-size: 100% 100%, cover;
+	o-background-size: 100% 100%, cover;
+	background-size: 100% 100%, cover;
+  	height: 600px;
+  	margin-top: 10px;
+}
+/* Clothes Detalle  */
+#Clothes_detail{
+  background-image: url("../img/tablet/Clothes1.jpg");
+  -webkit-background-size: 100% 100%, cover; 
+	-moz-background-size: 100% 100%, cover;
+	o-background-size: 100% 100%, cover;
+	background-size: 100% 100%, cover;
+  	height: 600px;
+  	margin-top: 10px;
+}
+#Clothes1{
+  background-image: url("../img/tablet/PRoductos.jpg");
+  -webkit-background-size: 100% 100%, cover; 
+	-moz-background-size: 100% 100%, cover;
+	o-background-size: 100% 100%, cover;
+	background-size: 100% 100%, cover;
+  	height: 600px;
+  	margin-top: 10px;
+}
+
+/* Video  */
+#video{
+  background-image: url("../img/tablet/Video.jpg");
+  -webkit-background-size: 100% 100%, cover; 
+	-moz-background-size: 100% 100%, cover;
+	o-background-size: 100% 100%, cover;
+	background-size: 100% 100%, cover;
+   	height: 600px;
+  	margin-top: 10px;
+}
+
+/* Recipe  */
+#recipe{
+  background-image: url("../img/tablet/Receta.jpg");
+  -webkit-background-size: 100% 100%, cover; 
+	-moz-background-size: 100% 100%, cover;
+	o-background-size: 100% 100%, cover;
+	background-size: 100% 100%, cover;
+  	height: 600px;
+  	margin-top: 10px;
+}
+
+/* Shoes */
+#shoes{
+  background-image: url("../img/tablet/Zapatos.jpg");
+  -webkit-background-size: 100% 100%, cover; 
+	-moz-background-size: 100% 100%, cover;
+	o-background-size: 100% 100%, cover;
+	background-size: 100% 100%, cover;
+  	height: 600px;
+  	margin-top: 10px;
+}
+
+.sliderPr{margin-left:0px;}
+
+.redTwitter{ 
+	margin-top: 15%;
+}
+.redFacebook{
+	margin-top: 25%;
+}
+.redPinterest{
+	margin-top: 35%;
+}
+.control5{
+	margin-left: 95px;
+}
+.control6{
+	margin-left: 50px;
+}
+.control7{
+	margin-left: 0px;
+}
+#shopingCart{
+	background-image: url("../img/controls/shoping_movi.svg");
+	background-repeat: no-repeat;
+	height: 45px;
+	margin-left: 90%;
+	margin-top: -40px;
+}
+#video1{
+	width: 520px;
+	height: 222px;
+}
+.videoBtn{
+	margin-top: 20%;
+	margin-left: 15%;
+}
+.vestidoBtn{ margin-top: 60%; margin-left:44%;}
+.vestidoBtn2{ margin-top: 60%; margin-left:15%;}
+
+
+#modalImg{
+	background-image: url("../img/tablet/Popup1.jpg");
+	background-repeat: no-repeat;
+}
+
+#modalImg2{
+	background-image: url("../img/tablet/popup2.jpg");
+	background-repeat: no-repeat;
+}
+
+
+}
+
+
+@media screen and (max-width: 800px)  {
+	#video1{
+	width: 320px;
+	height: 222px;
+}
+.videoBtn{
+	margin-top: 30%;
+	margin-left: 15%;
+}
+}
+
+@media screen and (max-width: 500px)  {
+
+#recipe{background-image: url("../img/receta/mobil/recetaTelefono.jpg"); height: 450px; }
+#Portada{
+	height: 400px; 
+	background: url(../img/movil/Portada.jpg) no-repeat; 
+   -webkit-background-size: 100% 100%, cover; 
+	-moz-background-size: 100% 100%, cover;
+	o-background-size: 100% 100%, cover;
+	background-size: 100% 100%, cover;
+}
+
+#Clothes_detail{
+	height: 400px;
+   background-image: url("../img/movil/Clothes1.jpg");
+  -webkit-background-size: 100% 100%, cover; 
+	-moz-background-size: 100% 100%, cover;
+	o-background-size: 100% 100%, cover;
+	background-size: 100% 100%, cover;
+}
+#Clothes1{height: 400px;
+  background-image: url("../img/movil/Vestidos.jpg");
+  -webkit-background-size: 100% 100%, cover; 
+	-moz-background-size: 100% 100%, cover;
+	o-background-size: 100% 100%, cover;
+	background-size: 100% 100%, cover;
+}
+
+
+#recipe{height: 400px;
+  background-image: url("../img/movil/Receta.jpg");
+  -webkit-background-size: 100% 100%, cover; 
+	-moz-background-size: 100% 100%, cover;
+	o-background-size: 100% 100%, cover;
+	background-size: 100% 100%, cover;
+}
+#shoes{height: 400px;
+  background-image: url("../img/movil/Zapatos.jpg");
+  -webkit-background-size: 100% 100%, cover; 
+	-moz-background-size: 100% 100%, cover;
+	o-background-size: 100% 100%, cover;
+	background-size: 100% 100%, cover;
+}
+#video{
+	background-image: url("../img/movil/Video.jpg");
+  	-webkit-background-size: 100% 100%, cover; 
+	-moz-background-size: 100% 100%, cover;
+	o-background-size: 100% 100%, cover;
+	background-size: 100% 100%, cover;
+	height: 400px; }
+
+.redTwitter{ 
+	margin-top: 35px;
+}
+.redFacebook{
+	margin-top: 70px;
+}
+.redPinterest{
+	margin-top: 100px;
+}
+
+.control5{
+	display: none;
+}
+.control6{
+	margin-left: 0%;
+	margin-right: -20px;
+}
+
+.control7{
+	display: none;
+}
+
+.vestidoBtn{ margin-top: 70%; margin-left: 10%;}
+.vestidoBtn2{ margin-top: 75%; margin-left: 40%;}
+
+#video1{
+	width: 220px;
+	height: 122px;
+}
+.videoBtn{
+	margin-top: 25%;
+	margin-left: 15%;
+}
+
+#modalImg{
+	background-image: url("../img/movil/Popup1.jpg");
+	background-repeat: no-repeat;
+	width: 200px;
+	height: 200px;
+}
+
+#modalImg2{
+	background-image: url("../img/movil/Pop-up2.jpg");
+	background-repeat: no-repeat;
+		width: 200px;
+	height: 200px;
+}
+
+#Twitter{
+	content:url("../img/movil/TW.png");
+}
+#Pinterest{
+	content:url("../img/movil/PN.png");
+}
+#Facebook{
+	content:url("../img/movil/FB.png");
+}
+
+#shopingCart{
+	background-image: url("../img/controls/shoping_movi.svg");
+	background-repeat: no-repeat;
+	height: 45px;
+	margin-left: 80%;
+	margin-top: -40px;
+}
+
+.control1{
+	margin-left: 5px;
+}
+.control2{
+	margin-left: -10px;
+}
+.control3{
+	margin-left: 10px;
+}
+.control4{
+	margin-left: 10px;
+}
+
+
+
+}
+
